@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="hu">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI kép elemző</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'bunker': '#0d1117',
+              'shark': '#21262d',
+              'nevada': '#636e7b',
+              'comet': '#545d68',
+              'azure': '#388bfd',
+              'whisper': '#e6edf3',
+            },
+          },
+        },
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.1.1/",
+    "react": "https://aistudiocdn.com/react@^19.1.1",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.21.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.1.1/"
+  }
+}
+</script>
+</head>
+  <body class="bg-bunker text-whisper">
+    <div id="root"></div>
+  </body>
+</html>
