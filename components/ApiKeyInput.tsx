@@ -50,7 +50,7 @@ const ApiKeyInput: React.FC<ApiKeyInputProps> = ({ apiKey, onApiKeySave }) => {
   return (
     <div className="p-4 border border-azure rounded-lg mb-6 bg-shark/50">
         <h3 className="font-semibold text-whisper mb-2">Google AI API Kulcs Megadása</h3>
-        <p className="text-sm text-nevada mb-3">
+        <p className="text-sm text-white mb-3">
           Az alkalmazás a Google mesterséges intelligenciáját használja a képek elemzéséhez. A használathoz szükséged lesz egy saját, ingyenes Google AI API kulcsra. Ez a kulcs azonosít téged a Google felé, és lehetővé teszi a szolgáltatás korlátozott, ingyenes használatát.
           <br />
           <strong>A kulcsot biztonságosan, csak a te böngésződben, a helyi tárolóban mentjük el, soha nem küldjük tovább sehova.</strong>
@@ -72,7 +72,7 @@ const ApiKeyInput: React.FC<ApiKeyInputProps> = ({ apiKey, onApiKeySave }) => {
                 Mentés
             </button>
         </div>
-        <a href="https://aistudio.google.com/app/apikey" target="_blank" rel="noopener noreferrer" className="text-xs text-azure hover:underline mt-2 inline-block">
+        <a href="https://aistudio.google.com/app/apikey" target="_blank" rel="noopener noreferrer" className="text-xs text-yellow-400 hover:underline mt-2 inline-block">
             API Kulcs beszerzése a Google AI Studio-ból
         </a>
     </div>
